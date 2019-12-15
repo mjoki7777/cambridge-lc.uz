@@ -1,0 +1,221 @@
+@media (min-width: 2560px) {
+
+.navbar-brand > img {
+width: 250px;
+height: 210px;
+}
+
+.brandname{
+margin-top: 6%;
+font-size: 3em;
+}
+
+.brandname2{
+font-size: 0.5em; 
+}
+
+.ml-auto{
+font-size: 2.4em;
+}
+
+.desktop{
+margin-top: 17%;
+margin-bottom: 5%;
+}
+
+.lion{
+width: 60%;
+height: auto;
+}
+
+.text{
+font-size: 3.6em;
+margin-top: 30%;
+margin-bottom: 10%;
+}
+
+.animated > a > button{
+font-size: 3.1em;
+}
+
+.guardsman{
+width: 90%;
+height: auto;
+margin-top: -40%;
+}
+
+.welearningcenter{
+font-size: 4em;
+margin-top: 7%;
+margin-bottom: 1%;
+}
+
+.player{
+width: 55%;
+}
+
+.desktop1{
+margin-top: 15%;
+margin-bottom: 0%;
+width: 55%;
+}
+
+.hello{
+font-size: 5em;
+}
+
+.description{
+font-size: 3.9em;
+}
+
+.desktop2{
+margin-top: 8%;
+margin-bottom: 0%;
+}
+
+.guardsman2{
+width: 100%;
+height: auto;
+margin-left: -40%;
+}
+
+.ant-collapse{
+margin-top: 23%;
+}
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header{
+font-size: 3em;
+padding: 40px 70px;
+}
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header .ant-collapse-arrow{
+padding: 15px;
+}
+
+.panelcontent{
+font-size: 2.5em;
+}
+
+.trialversion{
+font-size: 3.5em;
+}
+
+.ant-modal{
+    width: 50%;
+    height: 55%;
+    padding: 20px;
+}
+
+.ant-modal-header{
+background-color: black;
+border-bottom: 0;
+}
+
+.ant-modal-title{
+color: white;
+font-size: 4em;
+margin-bottom: 3%;
+margin-top: 3%;
+}
+
+.titleinfo{
+font-size: 2.8em;
+margin-bottom: 20px;
+}
+
+.ant-modal-content{
+background-color: black;
+color: white;
+}
+
+.ant-modal-footer{
+border-top: 0;
+margin-top: -10px;
+}
+
+.inputinfo{
+margin-bottom: 5%;
+width: 100%;
+height: 80px;
+font-size: 2.7em;
+
+}
+
+.ant-modal-close-x{
+color: white;
+font-size: 5em;
+}
+
+.ant-modal-footer > div > button:nth-child(2){
+width: 50%;
+height: auto;
+font-size: 4em;
+background-color: white;
+color: black;
+}
+
+.teacherstitle{
+font-size: 4em;
+margin-top: 8.5%;
+}
+
+.teachersrow1{
+margin-top: 2%;
+}
+
+.ant-card{
+margin-top: 6%;
+}
+
+.ant-card-meta-title{
+font-size: 2.7em;
+}
+.ant-card-meta-description{
+font-size: 1.8em;
+}
+
+.events{
+font-size: 4em;
+margin-top: 13%;
+margin-bottom: 5%;
+}
+
+.mainrunning1{
+font-size: 5.3em;
+}
+
+.runningimages{
+width: 17%;
+margin-top: 2%;
+margin-bottom: 2%;
+}
+
+.results{
+font-size: 4em;
+margin-top: 17%;
+margin-bottom: 5%;
+}
+
+.resultsphoto{
+margin-bottom: 10%;
+}
+
+.locations{
+font-size: 4em;
+margin-top: 15%;
+margin-bottom: 7%;
+}
+
+.locationsname{
+font-size: 3em;
+margin-bottom: 5%;
+}
+
+.desktop6{
+margin-top: 10%;
+font-size: 2.8em;
+}
+
+}
+
+

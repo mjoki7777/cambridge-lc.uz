@@ -1,0 +1,64 @@
+.applications{
+    background-color: rgb(239, 13, 51);   
+    font-size: 3vw;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 5px;
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.applicationsinfo{
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid black;
+    width: 400px;
+}
+
+.hr{
+    margin: 10px auto;
+    border: 1px solid black;
+}
+
+.applicationsbutton{
+    color: white;
+    width: 100%;
+    line-height: 40px;
+    background-color: rgb(239, 13, 51);
+    font-weight: bold;   
+    border: 1px solid black;
+    font-size: 1.5vw;
+}
+
+.applicationsbutton:hover{
+    background-color: white;
+    color: black;   
+}
+
+@media(max-width: 767px){
+
+    .applications{
+        font-size: 37px;
+        width: 185px;
+        text-align: center;
+    }
+
+    .applicationsinfo{
+        font-size: 15px;
+        width: 90%;
+    }
+
+    .applicationsbutton{
+        color: white;
+        width: 100%;
+        line-height: 40px;
+        background-color: rgb(239, 13, 51);
+        font-weight: bold;   
+        border: 1px solid black;
+        font-size: 15px;
+    }
+
+}

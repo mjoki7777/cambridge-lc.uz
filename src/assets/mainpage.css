@@ -1,0 +1,884 @@
+html {
+scroll-behavior: smooth;
+}
+
+.background:before {
+content: "";
+display: block;
+position: fixed;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+z-index: -10;
+background: url("/background.jpg") no-repeat center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-color: black;
+}
+.navbar{
+background: rgba(0, 0, 0, 0.9);
+padding: 0;
+font-family: bebas-neue, sans-serif;
+font-style: normal;
+}
+
+.navbar-light .navbar-brand{
+color: white;
+}
+
+.brandname{
+font-family: 'Roboto Slab', serif;
+float: right;
+font-weight: bold;
+text-align: center;
+}
+
+.brandname:hover{
+color: white;
+}
+
+.phone{
+border: 1px solid white;
+}
+
+.instagram{
+width: 1.5em;
+height: 1.5em;
+}
+
+.telegram{
+width: 1.5em;
+height: 1.5em;
+}
+
+.facebook{
+width: 1.5em;
+height: 1.5em;
+}
+
+.navbar-toggler{
+background-color: white;
+margin-right: 5px;
+}
+
+.desktop{
+width: 100%;
+}
+
+.lionbox{
+text-align: center;
+}
+
+.textbox{
+text-align: center;
+}
+
+.text{
+color: white;
+font-weight: bold;
+}
+
+.btn-default {
+margin: 0 auto;
+background-color: rgb(239, 13, 51);
+color: white;
+}
+
+.btn-default:hover {
+background-color: black;
+color: white;
+}
+
+@keyframes glowing {
+0% { box-shadow: 0 0 -30px rgb(239, 13, 51); }
+40% { box-shadow: 0 0 40px rgb(239, 13, 51); }
+60% { box-shadow: 0 0 40px rgb(239, 13, 51); }
+100% { box-shadow: 0 0 -30px rgb(239, 13, 51); }
+}
+
+.button-glow {
+animation: glowing 1500ms infinite;
+}
+
+.guardsmanbox{
+text-align: center;
+animation-duration: 1s;
+}
+
+.welearningcenter{
+text-align: center;
+font-weight: bold;
+color: white;
+}
+
+.we{
+color: rgb(239, 13, 51);
+}
+
+.react-rotating-text-cursor {
+animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinite;
+}
+
+@keyframes blinking-cursor {
+0% {
+opacity: 0;
+}
+50% {
+opacity: 1;
+}
+100% {
+opacity: 0;
+}
+}
+.player{
+height: auto;
+margin: 0 auto;
+border: 4px solid white;
+}
+
+.desktop1{
+color: white;
+width: 50%;
+height: auto;
+margin: 0 auto;
+}
+
+.hello{
+text-align: center;
+background-color: rgb(239, 13, 51);
+font-weight: bold;
+width: 40%;
+}
+
+.iphone{
+width: 100%;
+height: auto;
+}
+
+.desktop2{
+width: 50%;
+margin: 0 auto;
+}
+
+.guardsman2{
+width: 100%;
+height: auto;
+}
+
+.ant-collapse{
+background: rgba(0, 0, 0, 0.1);
+margin: 0 auto;
+border: 0;
+}
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header{
+color: white;
+font-weight: bold;
+border: 0;
+}
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header .ant-collapse-arrow{
+background-color: rgb(239, 13, 51);
+border-radius: 20%;
+}
+
+.ant-collapse-content{
+background: rgba(0, 0, 0, 0.1);   
+}
+
+.panelcontent{
+color: white;
+}
+
+strong{
+color: white;
+background-color: rgb(239, 13, 51);  
+}
+
+.orderdesktop{
+text-align: center;
+}
+
+.ant-modal {
+border: 1px solid white;
+top: 25%;
+background-color: black;
+}
+
+.ant-modal-header{
+background-color: black;
+border-bottom: 0;
+}
+
+.ant-modal-title{
+color: white;
+font-size: 2em;
+}
+
+.titleinfo{
+font-size: 1.1em;
+margin-bottom: 20px;
+}
+
+.ant-modal-content{
+background-color: black;
+color: white;
+}
+
+.ant-modal-body{
+padding-top: 0
+}
+
+.ant-modal-footer{
+border-top: 0;
+margin-top: -10px;
+}
+
+.inputinfo{
+margin-bottom: 30px;
+}
+
+.ant-modal-close-x{
+color: white;
+font-size: 2.5em;
+}
+
+.ant-modal-footer{
+text-align: center;
+}
+
+.ant-modal-footer > div > button:nth-child(1){
+display: none;  
+} 
+
+.ant-modal-footer > div > button:nth-child(2){
+width: 60%;
+height: auto;
+font-size: 2em;
+background-color: white;
+color: black;
+} 
+
+.ant-modal-footer > div > button:nth-child(2) > span {
+display: none;
+}
+.ant-modal-footer > div > button:nth-child(2):after {
+content: 'Оставить заявку';
+}
+
+.teacherstitle{
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+color: white;
+background-color: rgb(239, 13, 51);
+font-weight: bold;
+width: 50%;
+letter-spacing: 5px;
+}
+
+.ant-card{
+background: rgba(0, 0, 0, 0.6);
+margin: 0 auto;
+border-radius: 5%;
+}
+
+.ant-card-bordered{
+border: 5px solid rgb(239, 13, 51);
+}
+
+.teachersinfo{
+width: 70%;
+transition: transform .2s;
+}
+
+.teachersinfo:hover {
+transform: scale(1.1);
+}
+
+.ant-card-body{
+padding: 5px;
+}
+
+.ant-card-meta-title{
+color: white;
+font-weight: bold;
+}
+
+.ant-card-meta-description{
+color: white;
+}
+
+.teachersrow1{
+width: 50%;
+margin: 0 auto;
+}
+
+.square{
+width: 17%;
+height: 17%;
+background-color: rgb(239, 13, 51);
+position: absolute;
+top: 0;
+left: 4%;
+z-index: 10;
+}
+
+.events{
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+color: white;
+background-color: rgb(239, 13, 51);
+font-weight: bold;
+width: 50%;
+letter-spacing: 5px;
+}
+
+.runningimages{
+width: 20%;
+height: auto;
+text-align: center;
+}
+
+.runningline{
+color: white;
+text-transform: uppercase;
+font-weight: normal;
+}
+
+.runningline > b{
+color: rgb(239, 13, 51);
+font-weight: normal;
+}
+
+.results{
+margin: 0 auto;
+color: white;
+text-align: center;
+background-color: rgb(239, 13, 51);
+font-weight: bold;
+width: 50%;
+letter-spacing: 5px;
+}
+
+.resultsrow{
+margin: 0 auto;
+width: 50%;
+text-align: center;
+}
+
+.resultsphoto{
+width: 90%;
+border-radius: 50%;
+text-align: center;
+margin: 0 auto;
+}
+
+.ant-carousel .slick-dots{
+opacity: 0;
+}
+
+.locations{
+margin: 0 auto;
+color: white;
+background-color: rgb(239, 13, 51);
+font-weight: bold;
+width: 50%;
+letter-spacing: 5px;
+text-align: center;
+}
+
+.locationsname{
+color: white;
+background-color: rgb(239, 13, 51);
+width: 80%;
+text-align: center;
+margin: 0 auto;
+font-weight: bold; 
+}
+
+.desktop5{
+width: 80%;
+margin: 0 auto;
+}
+
+.mapouter{
+position:relative;
+text-align: center;
+height: 350px;
+width: 100%;
+}
+
+.gmap_canvas {
+overflow:hidden;
+background:none!important;
+height: 100%;
+width: 100%;
+}
+
+.desktop6{
+width: 100%;
+padding: 10px;
+background-color: rgb(26, 26, 26);
+color: white;
+}
+
+.desktop6 > .ant-row {
+color: white;
+margin: 0 auto;
+}
+
+.desktop6 > .ant-row > .ant-col > a {
+color: white;
+}
+
+@media (min-width: 960px) {
+
+.mobile{
+display: none;
+}
+
+.mobile1{
+display: none;
+}
+
+.mobile2{
+display: none;
+}
+
+.mobile3{
+display: none;
+}
+
+.mobile4{
+display: none;
+}
+
+.mobile5{
+display: none;
+}
+
+.mobile6{
+display: none;
+}
+
+.ordermobile{
+display: none;
+}
+
+.ant-carousel  > .mainrunning2{
+display: none;
+}
+
+}
+
+@media (max-width: 960px) {
+
+.desktop{
+display: none;
+}
+
+.desktop1{
+display: none;
+}
+
+.desktop2{
+display: none;
+}
+
+.desktop3{
+display: none;
+}
+
+.desktop4{
+display: none;
+}
+
+.desktop5{
+display: none;
+}
+
+.desktop6{
+display: none;
+}
+
+.mainrunning1{
+display: none;
+}
+
+.orderdesktop{
+display: none;
+}
+
+.navbar{
+background: black;
+}
+
+.navbar-brand > img{
+width: 90px;
+height: 70px;
+}
+
+.brandname{
+font-size: 1.2em;
+margin-top: 3%;
+}
+
+.brandname2{
+font-size: 0.5em;
+}
+
+.ml-auto{
+font-size: 1.1em;
+text-align: center;
+}
+
+.phone{
+border: 1px solid white;
+width: 40%;
+margin: 0 auto;
+}
+
+.instagram{
+width: 2em;
+height: 2em;
+}
+
+.telegram{
+width: 2em;
+height: 2em;
+}
+
+.facebook{
+width: 2em;
+height: 2em;
+}
+
+.mobile{
+width: 100%;
+text-align: center;
+}
+
+.lion{
+width: 30%;
+height: auto;
+}
+
+.text{
+margin-top: 2%;
+font-size: 1.4em;
+}
+
+.btn-default {
+margin-top: 5%;
+font-size: 0.7em;
+}
+
+.guardsman{
+width: 60%;
+height: auto;
+}
+
+.welearningcenter{
+text-align: center;
+font-weight: bold;
+font-size: 1.6em;
+margin-top: 12%;
+margin-bottom: 8%;
+color: white;
+}
+
+.player{
+width: 95%;
+height: auto;
+}
+
+.mobile1{
+color: white;
+margin-top: 10%;
+width: 95%;
+margin: 0 auto;
+text-align: center;
+}
+
+.hello{
+margin: 6% auto;
+text-align: center;
+font-size: 2.3em;
+width: 40%;
+}
+
+.description{
+font-size: 1.4em;
+text-align: justify;
+margin-bottom: 5%;
+margin-bottom: 20%;
+}
+
+.iphone{
+width: 40%;
+height: auto;
+}
+
+.guardsman2{
+width: 55%;
+height: auto;
+display: block;
+margin-left: 20%;
+margin-right: auto;
+margin-top: 20%;
+}
+
+.ant-collapse{
+margin-top: 35%;
+}
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header{
+font-size: 1.3em;
+padding: 30px 45px;
+}
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header .ant-collapse-arrow{
+font-size: 1.5em;
+border-radius: 20%;
+margin-left: -10px;
+}
+
+.panelcontent{
+font-size: 1.2em;
+}
+
+.ordermobile{
+text-align: center;
+}
+
+.trialversion {
+font-size: 1.2em;
+}  
+
+.ant-modal {
+top: 20%;
+}
+
+.ant-modal-title{
+font-size: 1.8em;
+}
+
+.titleinfo{
+font-size: 1.2em;
+margin-bottom: 20px;
+}
+
+.ant-modal-footer{
+border-top: 0;
+margin-top: -5%;
+}
+
+.inputinfo{
+margin-bottom: 20px;
+}
+
+.ant-modal-close-x{
+color: white;
+font-size: 2em;
+}
+
+.ant-modal-footer{
+text-align: center;
+}
+
+.ant-modal-footer > div > button:nth-child(1){
+display: none;  
+} 
+
+.ant-modal-footer > div > button:nth-child(2){
+width: 70%;
+height: auto;
+font-size: 1.7em;
+} 
+
+.ant-modal-footer > div > button:nth-child(2) > span {
+display: none;
+}
+.ant-modal-footer > div > button:nth-child(2):after {
+content: 'Оставить заявку';
+}
+
+.teacherstitle{
+text-align: center;
+margin-top: 45%;
+margin-bottom: 10%;
+margin-left: auto;
+margin-right: auto;
+color: white;
+background-color: rgb(239, 13, 51);
+font-size: 1.8em;
+font-weight: bold;
+width: 100%;
+letter-spacing: 5px;
+}
+
+.ant-card{
+background: rgba(0, 0, 0, 0.6);
+margin: 0 auto;
+border-radius: 5%;
+margin-top: 10%;
+margin-bottom: 15%;
+}
+
+.ant-card-bordered{
+border: 5px solid rgb(239, 13, 51);
+}
+
+.teachersinfo{
+width: 60%;
+transition: transform .2s;
+}
+
+.teachersinfo:hover {
+transform: scale(1.1);
+}
+
+.ant-card-body{
+padding: 5px;
+}
+
+.ant-card-meta-title{
+color: white;
+font-weight: bold;
+font-size: 1.8em;
+}
+
+.ant-card-meta-description{
+color: white;
+font-size: 1.3em;
+}
+
+.square{
+width: 25%;
+height: 20%;
+background-color: rgb(239, 13, 51);
+position: absolute;
+top: -8%;
+left: -12%;
+z-index: 10;
+}
+
+.events{
+text-align: center;
+margin-top: 30%;
+margin-bottom: 5%;
+margin-left: auto;
+margin-right: auto;
+color: white;
+background-color: rgb(239, 13, 51);
+font-size: 1.8em;
+font-weight: bold;
+width: 100%;
+letter-spacing: 5px;
+}
+
+.runningimages{
+width: 100%;
+height: auto;
+}
+
+.runningline{
+margin-top: 3%;
+margin-bottom: 3%;
+text-align: center;
+color: white;
+font-size: 1.8em;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+.results{
+margin: 0 auto;
+margin-top: 60%;
+color: white;
+text-align: center;
+background-color: rgb(239, 13, 51);
+font-size: 1.8em;
+font-weight: bold;
+width: 100%;
+letter-spacing: 5px;
+}
+
+.resultsphoto{
+width: 80%;
+border-radius: 50%;
+text-align: center;
+margin: 20% auto;
+}
+
+.locations{
+margin: 0 auto;
+margin-top: 30%;
+color: white;
+background-color: rgb(239, 13, 51);
+font-size: 1.8em;
+font-weight: bold;
+width: 100%;
+letter-spacing: 5px;
+text-align: center;
+}
+
+.locationsname{
+color: white;
+background-color: rgb(239, 13, 51);
+font-size: 1.8em;
+width: 100%;
+text-align: center;
+margin: 10% auto;
+font-weight: bold; 
+}
+
+.mobile6{
+margin-top: 30%;
+text-align: center;
+width: 100%;
+padding: 20px;
+background-color: rgb(26, 26, 26);
+color: white;
+}
+
+}
+
+
+@media  (min-width: 375px) {
+
+.welearningcenter{
+margin-top: 20%;
+}
+
+.mobile1{
+margin-top: 10%;
+}
+
+.description{
+margin-bottom: 20%;
+}
+
+.ant-collapse{
+margin-top: 60%;
+}
+
+.guardsman2{
+margin-top: 40%;
+}
+
+.teacherstitle{
+margin-top: 60%;
+}
+
+.events{
+margin-top: 55%;
+}
+
+
+}

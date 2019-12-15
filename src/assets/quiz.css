@@ -1,0 +1,304 @@
+.instruction{
+    font-size: 3vw;
+    color: rgb(239, 13, 51);
+    font-weight: bold;
+}
+
+.contentinfo{
+    font-size: 1.1vw;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.starttexting {
+    padding: 0 40px;
+    height: 45px;
+    font-size: 30px;
+}
+
+.testing{
+    color: rgb(239, 13, 51);
+    font-size: 4vw;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+.timer{
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.questionnumber{
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+.number{
+    background-color: rgb(239, 13, 51);
+    color: white;
+    font-weight: bold;
+    font-size: 3vw;
+    padding: 4px;
+    margin-right: 2%;
+}
+
+.question{
+    font-size: 2.5vw;
+}
+
+.answers{
+    margin: 40px;
+    font-size: 2.5vw;
+    height: auto;
+    padding: auto;
+}
+
+.navigations{
+    margin: 10px;
+    font-size: 2vw;
+    height: auto;
+    padding: auto;
+}
+
+.final{
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.pointsearned{
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.totaloutof{
+    color: rgb(239, 13, 51);
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+.yourlevel{
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.levelname{
+    color: rgb(239, 13, 51);
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+.readingpassage{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+.readingpassageinfo{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1vw;
+}
+
+.titlename{
+    font-weight: bold;
+    font-size: 3vw;
+    text-align: center;
+}
+
+.readingtext{
+    text-align: justify;
+    font-size: 1vw;
+    width: 90%;
+}
+
+.questions13{
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.questions13info{
+    font-weight: bold;
+    font-size: 1vw;
+}
+
+.questions9text{
+    text-align: justify;
+    width: 95%;
+    font-size: 1.4vw;
+}
+
+.questions9text > strong{
+    margin: 5px;
+    padding: 5px;
+}
+
+.tfnginfo{
+    font-size: 2vw;
+}
+
+.tfng{
+    margin: 2% auto;
+}
+
+input[type=radio] {
+    border: 0px;
+    width: 10%;
+    height: 1.1em;
+}
+
+.ready{
+    width: 20%;
+    height: auto;
+    padding: 15px;
+    font-size: 2vw;
+}
+
+@media(max-width: 767px){
+
+    .instruction{
+        font-size: 8vw;
+    }
+    
+    .contentinfo{
+        font-size: 4vw;
+    }
+
+    .testing{
+        font-size: 8vw;
+        font-weight: bold;
+        letter-spacing: 10px;
+    }
+    
+    .timer{
+        font-size: 7vw;
+        font-weight: bold;
+    }
+    
+    .questionnumber{
+        font-size: 7vw;
+        font-weight: bold;
+    }
+    
+    .number{
+        background-color: rgb(239, 13, 51);
+        color: white;
+        font-weight: bold;
+        font-size: 7vw;
+        padding: 4px;
+        margin-right: 5%;
+    }
+    
+    .question{
+        font-size: 7vw;
+    }
+    
+    .answers{
+        margin: 20px;
+        font-size: 7vw;
+        height: auto;
+        padding: auto;
+    }
+    
+    .navigations{
+        margin: 10px;
+        font-size: 6vw;
+        height: auto;
+        padding: auto;
+    }
+    
+    .starttexting {
+        padding: 0 10px;
+    }
+
+    .final{
+        font-size: 30px;
+    }
+    
+    .pointsearned{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .totaloutof{
+        font-size: 40px;
+    }
+    
+    .yourlevel{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .levelname{
+        color: rgb(239, 13, 51);
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    .morder{
+        margin: 20px auto;        
+    }
+
+    .readingpassage{
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 7vw;
+    }
+    
+    .readingpassageinfo{
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 3vw;
+    }
+    
+    .titlename{
+        font-weight: bold;
+        font-size: 7vw;
+        text-align: center;
+    }
+    
+    .readingtext{
+        text-align: justify;
+        font-size: 4vw;
+        width: 90%;
+    }
+    
+    .questions13{
+        font-size: 6vw;
+        font-weight: bold;
+    }
+    
+    .questions13info{
+        font-weight: bold;
+        font-size: 3vw;
+    }
+    
+    .questions9text{
+        text-align: justify;
+        width: 90%;
+        font-size: 4vw;
+    }
+    
+    .tfnginfo{
+        font-size: 4vw;
+    }
+    
+    .tfng{
+        margin: 2% auto;
+    }
+    
+    input[type=radio] {
+        border: 0px;
+        width: 10%;
+        height: 1.5em;
+    }
+    
+    .ready{
+        margin-top: 20px;
+        width: 50%;
+        height: auto;
+        padding: 15px;
+        font-size: 6vw;
+    }
+    
+
+}

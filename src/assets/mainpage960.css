@@ -1,0 +1,160 @@
+@media (min-width: 960px) {
+
+.navbar-brand > img {
+width: 100px;
+height: 80px;
+}
+
+.brandname{
+margin-top: 5%;
+font-size: 1.2em;
+}
+
+.brandname2{
+font-size: 0.5em; 
+}
+
+.ml-auto{
+font-size: 1em;
+}
+
+.desktop{
+margin-top: 15%;
+margin-bottom: 5%;
+}
+
+.lion{
+width: 55%;
+height: auto;
+}
+
+.text{
+font-size: 1.7em;
+margin-top: 30%;
+margin-bottom: 10%;
+}
+
+.animated > a > button{
+font-size: 1.3em;
+}
+
+.guardsman{
+width: 80%;
+height: auto;
+margin-top: -32%;
+}
+
+.welearningcenter{
+font-size: 1.8em;
+margin-top: 5%;
+margin-bottom: 1%;
+}
+
+.player{
+width: 50%;
+}
+
+.desktop1{
+margin-top: 15%;
+margin-bottom: 0%;
+}
+
+.hello{
+font-size: 2.5em;
+}
+
+.description{
+font-size: 1.8em;
+}
+
+.desktop2{
+margin-top: 10%;
+margin-bottom: 3%;
+}
+
+.guardsman2{
+width: 100%;
+height: auto;
+margin-left: -40%;
+margin-top: 0;
+}
+
+.ant-collapse{
+margin-top: 13%;
+}
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header{
+font-size: 1.4em;
+padding: 20px 50px;
+}
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header .ant-collapse-arrow{
+padding: 5px;
+}
+
+.panelcontent{
+font-size: 1.1em;
+}
+
+.teacherstitle{
+font-size: 2em;
+margin-top: 6.5%;
+margin-bottom: 0.4%;
+}
+
+.ant-card{
+margin-top: 6%;
+}
+
+.ant-card-meta-title{
+font-size: 1.1em;
+}
+.ant-card-meta-description{
+font-size: 0.9em;
+}
+
+.events{
+font-size: 2em;
+margin-top: 12%;
+margin-bottom: 4%;
+}
+
+.mainrunning1{
+font-size: 2.6em;
+}
+
+.runningimages{
+width: 16%;
+margin-top: 2%;
+margin-bottom: 2%;
+}
+
+.results{
+font-size: 2em;
+margin-top: 15%;
+margin-bottom: 3%;
+}
+
+.resultsphoto{
+margin-bottom: 10%;
+}
+
+.locations{
+font-size: 2em;
+margin-top: 10%;
+margin-bottom: 1%;
+}
+
+.locationsname{
+font-size: 1.5em;
+margin-bottom: 3%;
+}
+
+.desktop6{
+margin-top: 7%;
+font-size: 1.4em;
+}
+
+}
+
+

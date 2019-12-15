@@ -1,0 +1,29 @@
+.main {
+    background-color: white;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.ant-input-affix-wrapper {
+    margin: 15px auto;
+}
+
+.ant-input {
+    padding: 20px;
+}
+
+.forword {
+    float: right;
+    font-size: 20px;
+}
+
+.admin{
+    text-align: center;
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+}
+
+@media(max-width: 767px){
+
+}
