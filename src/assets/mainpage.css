@@ -489,9 +489,6 @@ display: none;
 display: none;
 }
 
-.ant-carousel  > .mainrunning2{
-display: none;
-}
 
 }
 
@@ -522,10 +519,6 @@ display: none;
 }
 
 .desktop6{
-display: none;
-}
-
-.mainrunning1{
 display: none;
 }
 
@@ -801,17 +794,23 @@ width: 100%;
 letter-spacing: 5px;
 }
 
+.marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 20s linear infinite;
+}
+
 .runningimages{
-width: 100%;
+width: 15%;
 height: auto;
 }
 
 .runningline{
-margin-top: 3%;
-margin-bottom: 3%;
+margin-top: 1%;
+margin-bottom: 1%;
 text-align: center;
 color: white;
-font-size: 1.8em;
+font-size: 2.5em;
 text-transform: uppercase;
 font-weight: bold;
 }
