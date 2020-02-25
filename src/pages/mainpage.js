@@ -174,7 +174,7 @@ class Mainpage extends Component {
               </div>
               <div className="animated fadeInUp duration-3s">
               <a href="/quiz">
-              <button type="button" className="btn btn-lg btn-default button-glow">УЗНАТЬ СВОЙ УРОВЕНЬ</button>
+              <button type="button" className="btn btn-lg btn-default button-glow">ЗАПИСАТЬСЯ НА ТЕСТ</button>
               </a>
               </div>
               </Col>
@@ -194,7 +194,7 @@ class Mainpage extends Component {
               <div> ЗДЕСЬ ВЫ ПОЛУЧИТЕ <br/> ЖЕЛАЕМЫЙ РЕЗУЛЬТАТ </div>
               <div className="animated">
               <a href="/quiz">
-              <button type="button" className="btn btn-lg btn-default button-glow">УЗНАТЬ СВОЙ УРОВЕНЬ</button>
+              <button type="button" className="btn btn-lg btn-default button-glow">ЗАПИСАТЬСЯ НА ТЕСТ</button>
               </a>
               </div>
               </div>
@@ -288,12 +288,10 @@ class Mainpage extends Component {
               <Col span={16} className="animated wow zoomInLeft">
               <div className="hello"> HELLO!</div>
               <div className="description"> 
-              Учебный центр Cambridge - это то место,
-              где английский язык станет для Вас
-              родным. Команда профессионалов,
-              которая готова предоставить Вам
-              качественное обучение с использованием
-              инновационных медотов.  
+              Учебный центр Cambridge - это то место, 
+              где английский язык станет для Вас родным. 
+              Наша команда опытных профессионалов готова 
+              предоставить Вам качественное обучение с индивидуальным подходом.
               </div>
               </Col>
               <Col span={8}>
@@ -304,12 +302,10 @@ class Mainpage extends Component {
               <div className="mobile1">
               <div className="hello animated wow zoomInLeft"> HELLO!</div>
               <div className="description animated wow zoomInLeft"> 
-              Учебный центр Cambridge - это то место,
-              где английский язык станет для Вас
-              родным. Команда профессионалов,
-              которая готова предоставить Вам
-              качественное обучение с использованием
-              инновационных медотов.  
+              Учебный центр Cambridge - это то место, 
+              где английский язык станет для Вас родным. 
+              Наша команда опытных профессионалов готова 
+              предоставить Вам качественное обучение с индивидуальным подходом.
               </div>
               <div>
               <img src={'iphone.png'} alt="iphone" className="iphone animated pulse wow infinite delay-1s" />
@@ -349,12 +345,11 @@ class Mainpage extends Component {
               <Collapse className="collapsepanel animated fadeInRight wow">
               <Panel header="ОБЩИЙ АНГЛИЙСКИЙ" className="panel">
               <div className="panelcontent">
-              Общий английский
-              <br></br>
               От <strong> Beginner </strong> до <strong> Upper-Intermediate </strong>
               <br></br>
-              Здесь Вы пройдете путь от начинающего уровня до профессионального.
-              Научитесь разговаривать и писать как настоящие англичане или американцы.
+              Обучение широкому спектру письменного и устного владения английским языком.
+              Здесь, Вы пройдете путь от начального уровня до профессионального и 
+              овладеете письменным и устным английским для применения его в работе и повседневной жизни.
               <br></br>
               Занятия проводятся <strong>3 раза</strong> в неделю по <strong> 1.5 часа </strong>
               <br></br>
@@ -363,59 +358,51 @@ class Mainpage extends Component {
               <strong> 500 000 сум </strong>
               </div>
               </Panel>
-              <Panel header="РАЗГОВОРНЫЕ КУРСЫ" className="panel">
-              <div className="panelcontent">
-              Разговорные курсы
-              <br></br>
-              Курсы наделены на повышение уровня разговорной речи,
-              чтобы Вы смогли ощучить полное погружение в язык и 
-              у Вас не возникало проблем с ведением диалога за границей.
-              Ну и конечно Вашим предподавателем будет наш иностранный.
-              <br></br>
-              Занятия проводятся <strong>3 раза</strong> в неделю по <strong> 1.5 часа </strong>
-              <br></br>
-              Цена за месяц:
-              <br></br>
-              <strong> 750 000 сум </strong>
-              </div>                  
-              </Panel>
               <Panel header="ПОДГОТОВКА К IELTS" className="panel">
               <div className="panelcontent">
-              Благодаря разнообразию наших курсов IELTS. 
-              Вы сможете подготовиться в удобное для Вас
-              время и получить желаемый результат.
+              Интенсивная и качественная подготовка к экзамену IELTS от опытных профессионалов.
+              Благодаря разнообразию групп на наши курсы IELTS, Вы сможете подготовиться в удобное
+              для Вас время и добиться высочайших результатов.
               <br></br>
               <strong> IELTS Full Course - </strong>
-              длится  4 месяца и нацелен 
+              длится 4 месяца и нацелен
               <br></br>
-              на балл 7.5+
+              на балл 7.0+
               <br></br>
               <strong> IELTS Rocket - </strong>
-              длится 2 месяца и нацелен 
+              длится 2 месяца и нацелен
               <br></br>
               на балл 6.0+
               <br></br>
-              <strong> IELTS Sprint - </strong>
-              длится 35 дней и нацелен 
-              <br></br>
-              на повышение балла
               </div>
               </Panel>
-              <Collapse onChange={link1} style={{marginTop:"0%"}}>
-              <Panel header="КОРПОРАТИВНОЕ ОБУЧЕНИЕ" className="panel">
-              </Panel>
-              </Collapse>
-              <Collapse onChange={link} style={{marginTop:"0%"}}>
-              <Panel header="АНГЛИЙСКИЙ ДЛЯ ДЕТЕЙ" className="panel">
-              </Panel>
-              </Collapse>
+              <div onClick={link1} className="ant-collapse-item panel">
+              <div className="ant-collapse-header" role="button" tabIndex="0" aria-expanded="false">
+              <i aria-label="icon: right" className="anticon anticon-right ant-collapse-arrow ant-collapse-arrow">
+              <svg viewBox="64 64 896 896" focusable="false" data-icon="right" style={{width: '1em',height: '1em'}}  fill="currentColor" aria-hidden="true">
+              <path d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"></path>
+              </svg>
+              </i>
+              КОРПОРАТИВНОЕ ОБУЧЕНИЕ
+              </div>
+              </div>
+              <div onClick={link} className="ant-collapse-item panel">
+              <div className="ant-collapse-header" role="button" tabIndex="0" aria-expanded="false">
+              <i aria-label="icon: right" className="anticon anticon-right ant-collapse-arrow ant-collapse-arrow">
+              <svg viewBox="64 64 896 896" focusable="false" data-icon="right" style={{width: '1em',height: '1em'}}  fill="currentColor" aria-hidden="true">
+              <path d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"></path>
+              </svg>
+              </i>
+              АНГЛИЙСКИЙ ДЛЯ ДЕТЕЙ
+              </div>
+              </div>
               </Collapse>
               </Col>
               </Row>
 
               <div className="orderdesktop">
               <button type="button" className="moji btn btn-lg btn-default button-glow trialversion" onClick={this.showModal}>
-              ЗАПИСАТЬСЯ НА ПРОБНЫЙ УРОК
+              ЗАПИСАТЬСЯ НА ТЕСТ
               </button>
               <Modal
               title="Хотите узнать больше?"
@@ -446,12 +433,11 @@ class Mainpage extends Component {
               <Collapse className="collapsepanel  fadeInRight wow">
               <Panel header="ОБЩИЙ АНГЛИЙСКИЙ" className="panel">
               <div className="panelcontent">
-              Общий английский
-              <br></br>
               От <strong> Beginner </strong> до <strong> Upper-Intermediate </strong>
               <br></br>
-              Здесь Вы пройдете путь от начинающего уровня до профессионального.
-              Научитесь разговаривать и писать как настоящие англичане или американцы.
+              Обучение широкому спектру письменного и устного владения английским языком.
+              Здесь, Вы пройдете путь от начального уровня до профессионального и 
+              овладеете письменным и устным английским для применения его в работе и повседневной жизни.
               <br></br>
               Занятия проводятся <strong>3 раза</strong> в неделю по <strong> 1.5 часа </strong>
               <br></br>
@@ -460,59 +446,51 @@ class Mainpage extends Component {
               <strong> 500 000 сум </strong>
               </div>
               </Panel>
-              <Panel header="РАЗГОВОРНЫЕ КУРСЫ" className="panel">
-              <div className="panelcontent">
-              Разговорные курсы
-              <br></br>
-              Курсы наделены на повышение уровня разговорной речи,
-              чтобы Вы смогли ощучить полное погружение в язык и 
-              у Вас не возникало проблем с ведением диалога за границей.
-              Ну и конечно Вашим предподавателем будет наш иностранный.
-              <br></br>
-              Занятия проводятся <strong>3 раза</strong> в неделю по <strong> 1.5 часа </strong>
-              <br></br>
-              Цена за месяц:
-              <br></br>
-              <strong> 750 000 сум </strong>
-              </div>                  
-              </Panel>
               <Panel header="ПОДГОТОВКА К IELTS" className="panel">
               <div className="panelcontent">
-              Благодаря разнообразию наших курсов IELTS. 
-              Вы сможете подготовиться в удобное для Вас
-              время и получить желаемый результат.
+              Интенсивная и качественная подготовка к экзамену IELTS от опытных профессионалов.
+              Благодаря разнообразию групп на наши курсы IELTS, Вы сможете подготовиться в удобное
+              для Вас время и добиться высочайших результатов.
               <br></br>
               <strong> IELTS Full Course - </strong>
-              длится  4 месяца и нацелен 
+              длится 4 месяца и нацелен
               <br></br>
-              на балл 7.5+
+              на балл 7.0+
               <br></br>
               <strong> IELTS Rocket - </strong>
-              длится 2 месяца и нацелен 
+              длится 2 месяца и нацелен
               <br></br>
               на балл 6.0+
               <br></br>
-              <strong> IELTS Sprint - </strong>
-              длится 35 дней и нацелен 
-              <br></br>
-              на повышение балла
               </div>
               </Panel>
-              <Collapse onChange={link1} style={{marginTop:"0%"}}>
-              <Panel header="КОРПОРАТИВНОЕ ОБУЧЕНИЕ" className="panel">
-              </Panel>
-              </Collapse>
-              <Collapse onChange={link} style={{marginTop:"0%"}}>
-              <Panel header="АНГЛИЙСКИЙ ДЛЯ ДЕТЕЙ" className="panel">
-              </Panel>
-              </Collapse>
+              <div onClick={link1} className="ant-collapse-item panel">
+              <div className="ant-collapse-header" role="button" tabIndex="0" aria-expanded="false">
+              <i aria-label="icon: right" className="anticon anticon-right ant-collapse-arrow ant-collapse-arrow">
+              <svg viewBox="64 64 896 896" focusable="false" data-icon="right" style={{width: '1em',height: '1em'}}  fill="currentColor" aria-hidden="true">
+              <path d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"></path>
+              </svg>
+              </i>
+              КОРПОРАТИВНОЕ ОБУЧЕНИЕ
+              </div>
+              </div>
+              <div onClick={link} className="ant-collapse-item panel">
+              <div className="ant-collapse-header" role="button" tabIndex="0" aria-expanded="false">
+              <i aria-label="icon: right" className="anticon anticon-right ant-collapse-arrow ant-collapse-arrow">
+              <svg viewBox="64 64 896 896" focusable="false" data-icon="right" style={{width: '1em',height: '1em'}}  fill="currentColor" aria-hidden="true">
+              <path d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"></path>
+              </svg>
+              </i>
+              АНГЛИЙСКИЙ ДЛЯ ДЕТЕЙ
+              </div>
+              </div>
               </Collapse>
 
               <img src={'guardsman2.png'} alt="guardsman2" className="guardsman2 animated fadeInLeft wow" />
 
               <div className="ordermobile">
               <button type="button" className="btn btn-lg btn-default button-glow trialversion" onClick={this.showModal}>
-              ЗАПИСАТЬСЯ НА ПРОБНЫЙ УРОК
+              ЗАПИСАТЬСЯ НА ТЕСТ
               </button>
               <Modal
               title="Хотите узнать больше?"
@@ -797,8 +775,26 @@ class Mainpage extends Component {
               <hr id="events" className="eventsss"/>
 
               <div className="events animated wow lightSpeedIn"> МЕРОПРИЯТИЯ </div>
+              <LazyLoad once >
+              <div class="marquee">
+              <span>
+              <div className="mainrunning1">
+              <div className="runningline">
+              <b> &nbsp; Мотивационные тренинги &nbsp; </b> &nbsp; Movie Club &nbsp; <b> &nbsp; Speaking Club &nbsp; </b> &nbsp; Благотворительные мероприятия &nbsp; <b> &nbsp; Мастер-классы &nbsp;</b>  
+              </div>
+              <img className="runningimages" src={'222.jpg'} alt="222"></img>
+              <img className="runningimages" src={'333.jpg'} alt="333"></img>
+              <img className="runningimages" src={'444.jpg'} alt="444"></img>
+              <img className="runningimages" src={'555.jpg'} alt="555"></img>
+              <img className="runningimages" src={'666.jpg'} alt="666"></img>
+              <img className="runningimages" src={'333.jpg'} alt="333"></img>
+              <img className="runningimages" src={'444.jpg'} alt="444"></img>
+              </div>
+              </span>
+              </div>
+              </LazyLoad>
 
-              <Ticker
+              {/* <Ticker
               direction="toLeft"
               offset="100%"
               speed={20}
@@ -812,6 +808,11 @@ class Mainpage extends Component {
               <b> Мотивационные тренинги </b> Movie Club  Speaking Club  
               </div>
 
+              <img className="runningimages" src={'222.jpg'} alt="222"></img>
+              <img className="runningimages" src={'333.jpg'} alt="333"></img>
+              <img className="runningimages" src={'444.jpg'} alt="444"></img>
+              <img className="runningimages" src={'555.jpg'} alt="555"></img>
+              <img className="runningimages" src={'666.jpg'} alt="666"></img>
               <img className="runningimages" src={'222.jpg'} alt="222"></img>
               <img className="runningimages" src={'333.jpg'} alt="333"></img>
               <img className="runningimages" src={'444.jpg'} alt="444"></img>
@@ -872,7 +873,7 @@ class Mainpage extends Component {
               <div>
               Мотивационные тренинги
               </div>
-              </Carousel>
+              </Carousel> */}
 
 
 
@@ -1081,17 +1082,21 @@ class Mainpage extends Component {
               <div className="locations animated wow lightSpeedIn"> ГДЕ МЫ НАХОДИМСЯ? </div>
 
               <Row className="desktop5">
-              <Col span={8}>
+              <Col span={6}>
               <div className="locationsname"> ДАРХАН</div>
-              <div className="mapouter"><div className="gmap_canvas"><iframe title="1" width="80%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=cambridge%20learning%20centre&t=&z=13&ie=UTF8&iwloc=&output=embed" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe></div></div>
+              <div className="mapouter"><div className="gmap_canvas"><iframe title="1" width="90%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=cambridge%20learning%20centre&t=&z=13&ie=UTF8&iwloc=&output=embed" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe></div></div>
               </Col>
-              <Col span={8}>
+              <Col span={6}>
               <div className="locationsname"> ДРУЖБА НАРОДОВ </div>
-              <div className="mapouter"><div className="gmap_canvas"><iframe title="2" width="80%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=Cambridge%20Learning%20Complex%209%20Furkat%20Street%2C%20Tashkent&t=&z=13&ie=UTF8&iwloc=&output=embed" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe></div></div>
+              <div className="mapouter"><div className="gmap_canvas"><iframe title="2" width="90%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=Cambridge%20Learning%20Complex%209%20Furkat%20Street%2C%20Tashkent&t=&z=13&ie=UTF8&iwloc=&output=embed" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe></div></div>
               </Col>
-              <Col span={8}>
+              <Col span={6}>
               <div className="locationsname"> БАДАМЗАР </div>
-              <div className="mapouter"><div className="gmap_canvas"><iframe title="3" width="80%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=99%20%D0%BF%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82%20%D0%90%D0%BC%D0%B8%D1%80%D0%B0%20%D0%A2%D0%B5%D0%BC%D1%83%D1%80%D0%B0%2C%20%D0%AE%D0%BD%D1%83%D1%81%D0%B0%D0%B1%D0%B0%D0%B4%D1%81%D0%BA%D0%B8%D0%B9%20%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%20%D0%A2%D0%B0%D1%88%D0%BA%D0%B5%D0%BD%D1%82%20UZ%2C%20%D0%A2%D0%BE%D1%88%D0%BA%D0%B5%D0%BD%D1%82%20100084%2C%20%D0%A3%D0%B7%D0%B1%D0%B5%D0%BA%D0%B8%D1%81%D1%82%D0%B0%D0%BD&t=&z=13&ie=UTF8&iwloc=&output=embed" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe></div></div>
+              <div className="mapouter"><div className="gmap_canvas"><iframe title="3" width="90%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=99%20%D0%BF%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82%20%D0%90%D0%BC%D0%B8%D1%80%D0%B0%20%D0%A2%D0%B5%D0%BC%D1%83%D1%80%D0%B0%2C%20%D0%AE%D0%BD%D1%83%D1%81%D0%B0%D0%B1%D0%B0%D0%B4%D1%81%D0%BA%D0%B8%D0%B9%20%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%20%D0%A2%D0%B0%D1%88%D0%BA%D0%B5%D0%BD%D1%82%20UZ%2C%20%D0%A2%D0%BE%D1%88%D0%BA%D0%B5%D0%BD%D1%82%20100084%2C%20%D0%A3%D0%B7%D0%B1%D0%B5%D0%BA%D0%B8%D1%81%D1%82%D0%B0%D0%BD&t=&z=13&ie=UTF8&iwloc=&output=embed" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe></div></div>
+              </Col>
+              <Col span={6}>
+              <div className="locationsname"> ТИНЧЛИК </div>
+              <div className="mapouter"><div className="gmap_canvas"><iframe title="3" width="90%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=99%20%D0%BF%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82%20%D0%90%D0%BC%D0%B8%D1%80%D0%B0%20%D0%A2%D0%B5%D0%BC%D1%83%D1%80%D0%B0%2C%20%D0%AE%D0%BD%D1%83%D1%81%D0%B0%D0%B1%D0%B0%D0%B4%D1%81%D0%BA%D0%B8%D0%B9%20%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%20%D0%A2%D0%B0%D1%88%D0%BA%D0%B5%D0%BD%D1%82%20UZ%2C%20%D0%A2%D0%BE%D1%88%D0%BA%D0%B5%D0%BD%D1%82%20100084%2C%20%D0%A3%D0%B7%D0%B1%D0%B5%D0%BA%D0%B8%D1%81%D1%82%D0%B0%D0%BD&t=&z=13&ie=UTF8&iwloc=&output=embed" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe></div></div>
               </Col>
               </Row>
 
@@ -1108,6 +1113,10 @@ class Mainpage extends Component {
               <div>
               <div className="locationsname"> БАДАМЗАР</div>
               <div className="mapouter"><div className="gmap_canvas"><iframe title="6" width="70%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=99%20%D0%BF%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82%20%D0%90%D0%BC%D0%B8%D1%80%D0%B0%20%D0%A2%D0%B5%D0%BC%D1%83%D1%80%D0%B0%2C%20%D0%AE%D0%BD%D1%83%D1%81%D0%B0%D0%B1%D0%B0%D0%B4%D1%81%D0%BA%D0%B8%D0%B9%20%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%20%D0%A2%D0%B0%D1%88%D0%BA%D0%B5%D0%BD%D1%82%20UZ%2C%20%D0%A2%D0%BE%D1%88%D0%BA%D0%B5%D0%BD%D1%82%20100084%2C%20%D0%A3%D0%B7%D0%B1%D0%B5%D0%BA%D0%B8%D1%81%D1%82%D0%B0%D0%BD&t=&z=13&ie=UTF8&iwloc=&output=embed" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe></div></div>
+              </div>
+              <div>
+              <div className="locationsname"> ТИНЧЛИК </div>
+              <div className="mapouter"><div className="gmap_canvas"><iframe title="3" width="70%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=99%20%D0%BF%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82%20%D0%90%D0%BC%D0%B8%D1%80%D0%B0%20%D0%A2%D0%B5%D0%BC%D1%83%D1%80%D0%B0%2C%20%D0%AE%D0%BD%D1%83%D1%81%D0%B0%D0%B1%D0%B0%D0%B4%D1%81%D0%BA%D0%B8%D0%B9%20%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%20%D0%A2%D0%B0%D1%88%D0%BA%D0%B5%D0%BD%D1%82%20UZ%2C%20%D0%A2%D0%BE%D1%88%D0%BA%D0%B5%D0%BD%D1%82%20100084%2C%20%D0%A3%D0%B7%D0%B1%D0%B5%D0%BA%D0%B8%D1%81%D1%82%D0%B0%D0%BD&t=&z=13&ie=UTF8&iwloc=&output=embed" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe></div></div>
               </div>
               </Carousel>
               </div>

@@ -80,7 +80,7 @@ margin-top: 0;
 }
 
 .ant-collapse{
-margin-top: 13%;
+margin-top: 20%;
 }
 
 .ant-collapse > .ant-collapse-item > .ant-collapse-header{
@@ -115,18 +115,12 @@ font-size: 0.9em;
 
 .events{
 font-size: 2em;
-margin-top: 12%;
-margin-bottom: 4%;
+margin-top: 10%;
+margin-bottom: 2%;
 }
 
 .mainrunning1{
 font-size: 2.6em;
-}
-
-.runningimages{
-width: 16%;
-margin-top: 2%;
-margin-bottom: 2%;
 }
 
 .results{
