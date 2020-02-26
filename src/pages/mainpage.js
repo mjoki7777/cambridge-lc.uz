@@ -4,7 +4,6 @@ import { Row, Col, Collapse, Modal, Input, Card, Carousel}  from 'antd';
 import {Navbar, Nav } from 'react-bootstrap';
 import { Player, BigPlayButton } from 'video-react';
 import ReactRotatingText from 'react-rotating-text';
-import Ticker from 'react-ticker';
 import LazyLoad from 'react-lazyload';
 import 'antd/dist/antd.css';
 import '../assets/mainpage.css';
@@ -607,7 +606,7 @@ class Mainpage extends Component {
               cover={ <img alt="kim" src={'kim.jpg'} />}
               className="teachersinfo animated wow zoomInLeft"
               >
-              <Meta title="Ms. Anastasia" description="General English Tutor"/>
+              <Meta title="Ms.Anastasia" description="General English Tutor"/>
               </Card>
               </Col>
               </Row>
@@ -707,7 +706,7 @@ class Mainpage extends Component {
               className="teachersinfo animated wow zoomInLeft"
               >
               <div className="square"></div>
-              <Meta title="Ms. Anastasia" description="General English Tutor"/>
+              <Meta title="Ms.Anastasia" description="General English Tutor"/>
               </Card>
               </div>
               <div>
@@ -775,24 +774,36 @@ class Mainpage extends Component {
               <hr id="events" className="eventsss"/>
 
               <div className="events animated wow lightSpeedIn"> МЕРОПРИЯТИЯ </div>
-              <LazyLoad once >
               <div class="marquee">
               <span>
               <div className="mainrunning1">
               <div className="runningline">
-              <b> &nbsp; Мотивационные тренинги &nbsp; </b> &nbsp; Movie Club &nbsp; <b> &nbsp; Speaking Club &nbsp; </b> &nbsp; Благотворительные мероприятия &nbsp; <b> &nbsp; Мастер-классы &nbsp;</b>  
+              <b>Мотивационные тренинги &nbsp; </b> 
+              Movie Club &nbsp;
+              <b>Speaking Club &nbsp; </b>
+              Благотворительные мероприятия &nbsp; 
+              <b>Мастер-классы &nbsp;</b>  
+              Mock Exams &nbsp; 
+              <b>Дебаты &nbsp; </b> 
+              Конкурсы &nbsp;
+              <b>Мотивационные тренинги &nbsp; </b> 
+              Movie Club &nbsp;
               </div>
               <img className="runningimages" src={'222.jpg'} alt="222"></img>
               <img className="runningimages" src={'333.jpg'} alt="333"></img>
               <img className="runningimages" src={'444.jpg'} alt="444"></img>
               <img className="runningimages" src={'555.jpg'} alt="555"></img>
               <img className="runningimages" src={'666.jpg'} alt="666"></img>
-              <img className="runningimages" src={'333.jpg'} alt="333"></img>
-              <img className="runningimages" src={'444.jpg'} alt="444"></img>
+              <img className="runningimages" src={'777.jpg'} alt="777"></img>
+              <img className="runningimages" src={'888.jpg'} alt="888"></img>
+              <img className="runningimages" src={'999.jpg'} alt="999"></img>
+              <img className="runningimages" src={'3333.jpg'} alt="3333"></img>
+              <img className="runningimages" src={'4444.jpg'} alt="4444"></img>
+              <img className="runningimages" src={'5555.jpg'} alt="5555"></img>
+              <img className="runningimages" src={'6666.jpg'} alt="6666"></img>
               </div>
               </span>
               </div>
-              </LazyLoad>
 
 
 
@@ -1014,9 +1025,10 @@ class Mainpage extends Component {
               </Col>
               <Col span={6}>
               <div className="locationsname"> ТИНЧЛИК </div>
-              <div className="mapouter"><div className="gmap_canvas"><iframe title="3" width="90%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=99%20%D0%BF%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82%20%D0%90%D0%BC%D0%B8%D1%80%D0%B0%20%D0%A2%D0%B5%D0%BC%D1%83%D1%80%D0%B0%2C%20%D0%AE%D0%BD%D1%83%D1%81%D0%B0%D0%B1%D0%B0%D0%B4%D1%81%D0%BA%D0%B8%D0%B9%20%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%20%D0%A2%D0%B0%D1%88%D0%BA%D0%B5%D0%BD%D1%82%20UZ%2C%20%D0%A2%D0%BE%D1%88%D0%BA%D0%B5%D0%BD%D1%82%20100084%2C%20%D0%A3%D0%B7%D0%B1%D0%B5%D0%BA%D0%B8%D1%81%D1%82%D0%B0%D0%BD&t=&z=13&ie=UTF8&iwloc=&output=embed" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe></div></div>
+              <div className="mapouter"><div className="gmap_canvas"><iframe title="3" width="90%" height="100%" id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2262.525568698128!2d69.21296800497889!3d41.33528660499095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDIwJzA1LjkiTiA2OcKwMTInNTUuMSJF!5e0!3m2!1sen!2sus!4v1582712315036!5m2!1sen!2sus" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe></div></div>
               </Col>
               </Row>
+
 
               <div className="mobile5">
               <Carousel autoplay>
@@ -1034,7 +1046,7 @@ class Mainpage extends Component {
               </div>
               <div>
               <div className="locationsname"> ТИНЧЛИК </div>
-              <div className="mapouter"><div className="gmap_canvas"><iframe title="3" width="70%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=99%20%D0%BF%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82%20%D0%90%D0%BC%D0%B8%D1%80%D0%B0%20%D0%A2%D0%B5%D0%BC%D1%83%D1%80%D0%B0%2C%20%D0%AE%D0%BD%D1%83%D1%81%D0%B0%D0%B1%D0%B0%D0%B4%D1%81%D0%BA%D0%B8%D0%B9%20%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%20%D0%A2%D0%B0%D1%88%D0%BA%D0%B5%D0%BD%D1%82%20UZ%2C%20%D0%A2%D0%BE%D1%88%D0%BA%D0%B5%D0%BD%D1%82%20100084%2C%20%D0%A3%D0%B7%D0%B1%D0%B5%D0%BA%D0%B8%D1%81%D1%82%D0%B0%D0%BD&t=&z=13&ie=UTF8&iwloc=&output=embed" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe></div></div>
+              <div className="mapouter"><div className="gmap_canvas"><iframe title="3" width="70%" height="100%" id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2262.525568698128!2d69.21296800497889!3d41.33528660499095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDIwJzA1LjkiTiA2OcKwMTInNTUuMSJF!5e0!3m2!1sen!2sus!4v1582712315036!5m2!1sen!2sus" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe></div></div>
               </div>
               </Carousel>
               </div>
