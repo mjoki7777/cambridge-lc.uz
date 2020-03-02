@@ -172,7 +172,7 @@ class Mainpage extends Component {
               <div> ЗДЕСЬ ВЫ ПОЛУЧИТЕ <br/> ЖЕЛАЕМЫЙ РЕЗУЛЬТАТ </div>
               </div>
               <div className="animated fadeInUp duration-3s">
-              <a href="/quiz">
+              <a href="https://new.cambridgegroup.uz/register/web">
               <button type="button" className="btn btn-lg btn-default button-glow">ЗАПИСАТЬСЯ НА ТЕСТ</button>
               </a>
               </div>
@@ -192,7 +192,7 @@ class Mainpage extends Component {
               <div className="text">
               <div> ЗДЕСЬ ВЫ ПОЛУЧИТЕ <br/> ЖЕЛАЕМЫЙ РЕЗУЛЬТАТ </div>
               <div className="animated">
-              <a href="/quiz">
+              <a href="https://new.cambridgegroup.uz/register/web">
               <button type="button" className="btn btn-lg btn-default button-glow">ЗАПИСАТЬСЯ НА ТЕСТ</button>
               </a>
               </div>
@@ -400,9 +400,11 @@ class Mainpage extends Component {
               </Row>
 
               <div className="orderdesktop">
-              <button type="button" className="moji btn btn-lg btn-default button-glow trialversion" onClick={this.showModal}>
+              <a href="https://new.cambridgegroup.uz/register/web">
+              <button type="button" className="moji btn btn-lg btn-default button-glow trialversion">
               ЗАПИСАТЬСЯ НА ТЕСТ
               </button>
+              </a>
               <Modal
               title="Хотите узнать больше?"
               visible={this.state.visible}
@@ -488,9 +490,11 @@ class Mainpage extends Component {
               <img src={'guardsman2.png'} alt="guardsman2" className="guardsman2 animated fadeInLeft wow" />
 
               <div className="ordermobile">
-              <button type="button" className="btn btn-lg btn-default button-glow trialversion" onClick={this.showModal}>
+              <a href="https://new.cambridgegroup.uz/register/web">
+              <button type="button" className="btn btn-lg btn-default button-glow trialversion">
               ЗАПИСАТЬСЯ НА ТЕСТ
               </button>
+              </a>
               <Modal
               title="Хотите узнать больше?"
               visible={this.state.visible}
@@ -786,54 +790,24 @@ class Mainpage extends Component {
               Mock Exams &nbsp; 
               <b>Дебаты &nbsp; </b> 
               Конкурсы &nbsp;
-              <b>Мотивационные тренинги &nbsp; </b> 
-              Movie Club &nbsp;
-              <b>Speaking Club &nbsp; </b>
-              Благотворительные мероприятия &nbsp; 
-              <b>Мастер-классы &nbsp;</b>  
-              Mock Exams &nbsp; 
-              <b>Дебаты &nbsp; </b> 
-              Конкурсы &nbsp;
-              <b>Мотивационные тренинги &nbsp; </b> 
-              Movie Club &nbsp;
-              <b>Speaking Club &nbsp; </b>
-              Благотворительные мероприятия &nbsp; 
-              <b>Мастер-классы &nbsp;</b>  
-              Mock Exams &nbsp; 
-              <b>Дебаты &nbsp; </b> 
-              Конкурсы &nbsp;
-              <b>Мотивационные тренинги &nbsp; </b> 
-              Movie Club &nbsp;
-              <b>Speaking Club &nbsp; </b>
-              Благотворительные мероприятия &nbsp; 
-              <b>Мастер-классы &nbsp;</b>  
-              Mock Exams &nbsp; 
-              <b>Дебаты &nbsp; </b> 
-              Конкурсы &nbsp;
-              <b>Мотивационные тренинги &nbsp; </b> 
-              Movie Club &nbsp;
-              <b>Speaking Club &nbsp; </b>
-              Благотворительные мероприятия &nbsp; 
-              <b>Мастер-классы &nbsp;</b>  
-              Mock Exams &nbsp; 
-              <b>Дебаты &nbsp; </b> 
-              Конкурсы &nbsp;
-              <b>Мотивационные тренинги &nbsp; </b> 
-              Movie Club &nbsp;
-              <b>Speaking Club &nbsp; </b>
-              Благотворительные мероприятия &nbsp; 
-              <b>Мастер-классы &nbsp;</b>  
-              Mock Exams &nbsp; 
-              <b>Дебаты &nbsp; </b> 
-              Конкурсы &nbsp;
-              <b>Мотивационные тренинги &nbsp; </b> 
-              Movie Club &nbsp;
-              <b>Speaking Club &nbsp; </b>
-              Благотворительные мероприятия &nbsp; 
-              <b>Мастер-классы &nbsp;</b>  
-              Mock Exams &nbsp; 
-              <b>Дебаты &nbsp; </b> 
-              Конкурсы &nbsp;
+              </div>
+              <img className="runningimages" src={'222.jpg'} alt="222"></img>
+              <img className="runningimages" src={'333.jpg'} alt="333"></img>
+              <img className="runningimages" src={'444.jpg'} alt="444"></img>
+              <img className="runningimages" src={'555.jpg'} alt="555"></img>
+              <img className="runningimages" src={'666.jpg'} alt="666"></img>
+              <img className="runningimages" src={'777.jpg'} alt="777"></img>
+              <img className="runningimages" src={'888.jpg'} alt="888"></img>
+              <img className="runningimages" src={'999.jpg'} alt="999"></img>
+              <img className="runningimages" src={'3333.jpg'} alt="3333"></img>
+              <img className="runningimages" src={'4444.jpg'} alt="4444"></img>
+              <img className="runningimages" src={'5555.jpg'} alt="5555"></img>
+              <img className="runningimages" src={'6666.jpg'} alt="6666"></img>
+              </div>
+              </span>
+              <span>
+              <div className="mainrunning1">
+              <div className="runningline">
               <b>Мотивационные тренинги &nbsp; </b> 
               Movie Club &nbsp;
               <b>Speaking Club &nbsp; </b>
@@ -855,91 +829,6 @@ class Mainpage extends Component {
               <img className="runningimages" src={'4444.jpg'} alt="4444"></img>
               <img className="runningimages" src={'5555.jpg'} alt="5555"></img>
               <img className="runningimages" src={'6666.jpg'} alt="6666"></img>
-              <img className="runningimages" src={'222.jpg'} alt="222"></img>
-              <img className="runningimages" src={'333.jpg'} alt="333"></img>
-              <img className="runningimages" src={'444.jpg'} alt="444"></img>
-              <img className="runningimages" src={'555.jpg'} alt="555"></img>
-              <img className="runningimages" src={'666.jpg'} alt="666"></img>
-              <img className="runningimages" src={'777.jpg'} alt="777"></img>
-              <img className="runningimages" src={'888.jpg'} alt="888"></img>
-              <img className="runningimages" src={'999.jpg'} alt="999"></img>
-              <img className="runningimages" src={'3333.jpg'} alt="3333"></img>
-              <img className="runningimages" src={'4444.jpg'} alt="4444"></img>
-              <img className="runningimages" src={'5555.jpg'} alt="5555"></img>
-              <img className="runningimages" src={'6666.jpg'} alt="6666"></img>
-              <img className="runningimages" src={'222.jpg'} alt="222"></img>
-              <img className="runningimages" src={'333.jpg'} alt="333"></img>
-              <img className="runningimages" src={'444.jpg'} alt="444"></img>
-              <img className="runningimages" src={'555.jpg'} alt="555"></img>
-              <img className="runningimages" src={'666.jpg'} alt="666"></img>
-              <img className="runningimages" src={'777.jpg'} alt="777"></img>
-              <img className="runningimages" src={'888.jpg'} alt="888"></img>
-              <img className="runningimages" src={'999.jpg'} alt="999"></img>
-              <img className="runningimages" src={'3333.jpg'} alt="3333"></img>
-              <img className="runningimages" src={'4444.jpg'} alt="4444"></img>
-              <img className="runningimages" src={'5555.jpg'} alt="5555"></img>
-              <img className="runningimages" src={'6666.jpg'} alt="6666"></img>
-              <img className="runningimages" src={'222.jpg'} alt="222"></img>
-              <img className="runningimages" src={'333.jpg'} alt="333"></img>
-              <img className="runningimages" src={'444.jpg'} alt="444"></img>
-              <img className="runningimages" src={'555.jpg'} alt="555"></img>
-              <img className="runningimages" src={'666.jpg'} alt="666"></img>
-              <img className="runningimages" src={'777.jpg'} alt="777"></img>
-              <img className="runningimages" src={'888.jpg'} alt="888"></img>
-              <img className="runningimages" src={'999.jpg'} alt="999"></img>
-              <img className="runningimages" src={'3333.jpg'} alt="3333"></img>
-              <img className="runningimages" src={'4444.jpg'} alt="4444"></img>
-              <img className="runningimages" src={'5555.jpg'} alt="5555"></img>
-              <img className="runningimages" src={'6666.jpg'} alt="6666"></img>
-              <img className="runningimages" src={'222.jpg'} alt="222"></img>
-              <img className="runningimages" src={'333.jpg'} alt="333"></img>
-              <img className="runningimages" src={'444.jpg'} alt="444"></img>
-              <img className="runningimages" src={'555.jpg'} alt="555"></img>
-              <img className="runningimages" src={'666.jpg'} alt="666"></img>
-              <img className="runningimages" src={'777.jpg'} alt="777"></img>
-              <img className="runningimages" src={'888.jpg'} alt="888"></img>
-              <img className="runningimages" src={'999.jpg'} alt="999"></img>
-              <img className="runningimages" src={'3333.jpg'} alt="3333"></img>
-              <img className="runningimages" src={'4444.jpg'} alt="4444"></img>
-              <img className="runningimages" src={'5555.jpg'} alt="5555"></img>
-              <img className="runningimages" src={'6666.jpg'} alt="6666"></img>
-              <img className="runningimages" src={'222.jpg'} alt="222"></img>
-              <img className="runningimages" src={'333.jpg'} alt="333"></img>
-              <img className="runningimages" src={'444.jpg'} alt="444"></img>
-              <img className="runningimages" src={'555.jpg'} alt="555"></img>
-              <img className="runningimages" src={'666.jpg'} alt="666"></img>
-              <img className="runningimages" src={'777.jpg'} alt="777"></img>
-              <img className="runningimages" src={'888.jpg'} alt="888"></img>
-              <img className="runningimages" src={'999.jpg'} alt="999"></img>
-              <img className="runningimages" src={'3333.jpg'} alt="3333"></img>
-              <img className="runningimages" src={'4444.jpg'} alt="4444"></img>
-              <img className="runningimages" src={'5555.jpg'} alt="5555"></img>
-              <img className="runningimages" src={'6666.jpg'} alt="6666"></img>
-              <img className="runningimages" src={'222.jpg'} alt="222"></img>
-              <img className="runningimages" src={'333.jpg'} alt="333"></img>
-              <img className="runningimages" src={'444.jpg'} alt="444"></img>
-              <img className="runningimages" src={'555.jpg'} alt="555"></img>
-              <img className="runningimages" src={'666.jpg'} alt="666"></img>
-              <img className="runningimages" src={'777.jpg'} alt="777"></img>
-              <img className="runningimages" src={'888.jpg'} alt="888"></img>
-              <img className="runningimages" src={'999.jpg'} alt="999"></img>
-              <img className="runningimages" src={'3333.jpg'} alt="3333"></img>
-              <img className="runningimages" src={'4444.jpg'} alt="4444"></img>
-              <img className="runningimages" src={'5555.jpg'} alt="5555"></img>
-              <img className="runningimages" src={'6666.jpg'} alt="6666"></img>
-              <img className="runningimages" src={'222.jpg'} alt="222"></img>
-              <img className="runningimages" src={'333.jpg'} alt="333"></img>
-              <img className="runningimages" src={'444.jpg'} alt="444"></img>
-              <img className="runningimages" src={'555.jpg'} alt="555"></img>
-              <img className="runningimages" src={'666.jpg'} alt="666"></img>
-              <img className="runningimages" src={'777.jpg'} alt="777"></img>
-              <img className="runningimages" src={'888.jpg'} alt="888"></img>
-              <img className="runningimages" src={'999.jpg'} alt="999"></img>
-              <img className="runningimages" src={'3333.jpg'} alt="3333"></img>
-              <img className="runningimages" src={'4444.jpg'} alt="4444"></img>
-              <img className="runningimages" src={'5555.jpg'} alt="5555"></img>
-              <img className="runningimages" src={'6666.jpg'} alt="6666"></img>
-
               </div>
               </span>
               </div>
