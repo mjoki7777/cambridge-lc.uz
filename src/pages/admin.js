@@ -55,9 +55,9 @@ class Admin extends Component {
         <div className="applicationsinfo" key={index}>
         <div> {dat.time} </div>
         <hr className="hr"></hr>
-        <div> {dat.name} </div>
-        <hr className="hr"></hr>
         <div> {dat.level} </div>
+        <hr className="hr"></hr>
+        <div> {dat.name} </div>
         <hr className="hr"></hr>
         <div> {dat.phone} </div>
         <button className="applicationsbutton" onClick={() => this.Delete(dat._id)}> ПРИНЯТО </button>

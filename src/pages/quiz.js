@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import {  Modal, Input, Button } from 'antd';
-// import { ym } from 'ym';
 import Questions from './questions.js';
 import axios from 'axios';
 import '../assets/quiz.css';
@@ -14,14 +13,15 @@ class Quiz extends Component {
     });
 };
   
-handleOk  = (name, level, phone) => {
+handleOk  = (name, levelName, phone) => {
     axios.post('/api/Put', {
+        level: levelName,
         name: name,
-        level: level,
         phone: phone
     }).then((res) => {
       console.log(res)
     }).catch(err => {console.log(err)});
+    alert("Заявка принята!")
       window.location.reload();
     };
   
@@ -284,19 +284,15 @@ handleOk  = (name, level, phone) => {
                 <Modal
                 title="Хотите узнать больше?"
                 visible={this.state.visible}
-                onOk={() => this.handleOk(this.state.name, this.state.level, this.state.phone)}
+                onOk={() => this.handleOk(this.state.name, this.state.levelName, this.state.phone)}
                 onCancel={this.handleCancel}
                 >
                 <div className="titleinfo"> Оставляйте свои контакты и наши менеджеры свяжутся с Вами.</div>
+                <div className="inputinfo"> Ваш уровень - {this.state.levelName} </div>
                 <Input 
                 className="inputinfo" 
                 placeholder="Имя Фамилия"
                 onChange={(e) => this.setState({ name: e.target.value })}
-                />
-                <Input 
-                className="inputinfo" 
-                placeholder="Уровень английского языка"
-                onChange={(e) => this.setState({ level: e.target.value })}
                 />
                 <Input 
                 className="inputinfo" 
@@ -527,19 +523,15 @@ handleOk  = (name, level, phone) => {
                 <Modal
                 title="Хотите узнать больше?"
                 visible={this.state.visible}
-                onOk={() => this.handleOk(this.state.name, this.state.level, this.state.phone)}
+                onOk={() => this.handleOk(this.state.name, this.state.levelName, this.state.phone)}
                 onCancel={this.handleCancel}
                 >
                 <div className="titleinfo"> Оставляйте свои контакты и наши менеджеры свяжутся с Вами.</div>
+                <div className="inputinfo"> Ваш уровень - {this.state.levelName} </div>
                 <Input 
                 className="inputinfo" 
                 placeholder="Имя Фамилия"
                 onChange={(e) => this.setState({ name: e.target.value })}
-                />
-                <Input 
-                className="inputinfo" 
-                placeholder="Уровень английского языка"
-                onChange={(e) => this.setState({ level: e.target.value })}
                 />
                 <Input 
                 className="inputinfo" 

@@ -30,6 +30,12 @@
     "ym": "^0.1.2"
   },
   "scripts": {
+    "start-frontend": "react-scripts start",
+    "start-backend": "nodemon --exec node server.js",
+    "dev": "concurrently \"npm-run-all -p start-backend start-frontend\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "start": "node server.js"
   },
   "eslintConfig": {

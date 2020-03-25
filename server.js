@@ -32,12 +32,24 @@ router.get('/Get', async (req, res) => {
   
 router.post('/Put', (req, res) => {
 try {
-  let  result = applications.insertOne({ name: req.body.name, level: req.body.level, phone: req.body.phone, time: new Date() });
+  let  result = applications.insertOne({ level: req.body.level, name: req.body.name, phone: req.body.phone, time: Date() });
   res.send(result);
+  console.log(result)
   } catch(err){
   throw err;
   }
 });
+
+router.post('https://cambridgegroup.uz/api/leads_from_website', (req, res) => {
+  try {
+    let  result = { level: req.body.level, name: req.body.name, phone: req.body.phone, time: Date() };
+    res.send(result);
+    console.log(result)
+    } catch(err){
+    throw err;
+    }
+  });
+  
 
 router.post('/Delete', async (req, res) => {
   let result = await applications.deleteOne( { _id: ObjectId(req.body._id)} );
