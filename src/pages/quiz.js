@@ -21,11 +21,22 @@ handleOk  = (name, levelName, phone) => {
     }).then((res) => {
       console.log(res)
     }).catch(err => {console.log(err)});
-    alert("Заявка принята!")
-      window.location.reload();
-    };
+    // alert("Заявка принята!")
+    //   window.location.reload();
+};
   
-    handleCancel = e => {
+handleOk  = (name, levelName, phone) => {
+    axios.post('https://cambridgegroup.uz/api/leads_from_website', {
+        level: levelName,
+        name: name,
+        phone: phone
+    }).then((res) => {
+      console.log(res)
+    }).catch(err => {console.log(err)});
+};
+
+
+handleCancel = e => {
       console.log(e);
       this.setState({
         visible: false,

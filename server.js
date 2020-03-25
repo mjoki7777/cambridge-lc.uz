@@ -38,7 +38,7 @@ try {
   } catch(err){
   throw err;
   }
-});
+});   
 
 router.post('https://cambridgegroup.uz/api/leads_from_website', (req, res) => {
   try {
@@ -48,8 +48,7 @@ router.post('https://cambridgegroup.uz/api/leads_from_website', (req, res) => {
     } catch(err){
     throw err;
     }
-  });
-  
+  });   
 
 router.post('/Delete', async (req, res) => {
   let result = await applications.deleteOne( { _id: ObjectId(req.body._id)} );
