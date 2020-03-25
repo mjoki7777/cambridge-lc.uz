@@ -21,8 +21,6 @@ handleOk  = (name, levelName, phone) => {
     }).then((res) => {
       console.log(res)
     }).catch(err => {console.log(err)});
-    // alert("Заявка принята!")
-    //   window.location.reload();
 };
   
 handleOk  = (name, levelName, phone) => {
@@ -33,6 +31,10 @@ handleOk  = (name, levelName, phone) => {
     }).then((res) => {
       console.log(res)
     }).catch(err => {console.log(err)});
+    alert("Заявка принята!")
+    setTimeout(function () {
+        window.location.href = '/quiz';
+    }, 3000);
 };
 
 
