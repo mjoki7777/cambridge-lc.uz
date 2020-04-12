@@ -13,15 +13,6 @@ class Quiz extends Component {
     });
 };
   
-handleOk  = (name, levelName, phone) => {
-    axios.post('/api/Put', {
-        level: levelName,
-        name: name,
-        phone: phone
-    }).then((res) => {
-      console.log(res)
-    }).catch(err => {console.log(err)});
-};
   
 handleOk  = (name, levelName, phone) => {
     axios.post('https://cambridgegroup.uz/api/leads_from_website', {

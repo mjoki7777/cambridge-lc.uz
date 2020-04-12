@@ -172,7 +172,7 @@ class Mainpage extends Component {
               <div> ЗДЕСЬ ВЫ ПОЛУЧИТЕ <br/> ЖЕЛАЕМЫЙ РЕЗУЛЬТАТ </div>
               </div>
               <div className="animated fadeInUp duration-3s">
-              <a href="https://new.cambridgegroup.uz/register/web">
+              <a href="https://cambridgeonline.uz/register/web">
               <button type="button" className="btn btn-lg btn-default button-glow">ЗАПИСАТЬСЯ НА ТЕСТ</button>
               </a>
               </div>
@@ -192,7 +192,7 @@ class Mainpage extends Component {
               <div className="text">
               <div> ЗДЕСЬ ВЫ ПОЛУЧИТЕ <br/> ЖЕЛАЕМЫЙ РЕЗУЛЬТАТ </div>
               <div className="animated">
-              <a href="https://new.cambridgegroup.uz/register/web">
+              <a href="https://cambridgeonline.uz/register/web">
               <button type="button" className="btn btn-lg btn-default button-glow">ЗАПИСАТЬСЯ НА ТЕСТ</button>
               </a>
               </div>
@@ -400,7 +400,7 @@ class Mainpage extends Component {
               </Row>
 
               <div className="orderdesktop">
-              <a href="https://new.cambridgegroup.uz/register/web">
+              <a href="https://cambridgeonline.uz/register/web">
               <button type="button" className="moji btn btn-lg btn-default button-glow trialversion">
               ЗАПИСАТЬСЯ НА ТЕСТ
               </button>
@@ -490,7 +490,7 @@ class Mainpage extends Component {
               <img src={'guardsman2.png'} alt="guardsman2" className="guardsman2 animated fadeInLeft wow" />
 
               <div className="ordermobile">
-              <a href="https://new.cambridgegroup.uz/register/web">
+              <a href="https://cambridgeonline.uz/register/web">
               <button type="button" className="btn btn-lg btn-default button-glow trialversion">
               ЗАПИСАТЬСЯ НА ТЕСТ
               </button>
